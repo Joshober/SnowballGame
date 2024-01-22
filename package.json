@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codyseibert/snowball-fight-online.git"
+    "url": "git+https://github.com/Joshober/SnowballGame.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codyseibert/snowball-fight-online/issues"
+    "url": "https://github.com/Joshober/SnowballGame"
   },
-  "homepage": "https://github.com/codyseibert/snowball-fight-online#readme",
+  "homepage": "https://github.com/Joshober/SnowballGame",
   "dependencies": {
     "express": "^4.18.2",
     "nodemon": "^2.0.20",
