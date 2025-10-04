@@ -917,6 +917,15 @@ async function main() {
 
   app.use(express.static("public"));
 
+  // Health check endpoint for Railway
+  app.get("/health", (req, res) => {
+    res.status(200).json({ 
+      status: "healthy", 
+      timestamp: new Date().toISOString(),
+      uptime: process.uptime()
+    });
+  });
+
   httpServer.listen(PORT);
 
   let lastUpdate = Date.now();
